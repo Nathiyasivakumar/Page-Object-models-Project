@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="Magento Test Suite">
+ 
+ <test name="login">
+ <classes>
+ 
+ <class name="test_cases.login">
+ 
+ </class>
+ </classes>
+
+ </test>
+
+  <test name="Women Products">
+ <classes>
+ 
+ <class name="test_cases.Women_products">
+ 
+ </class>
+ </classes>
+
+ </test>
+ 
+   <test name="Men Products">
+ <classes>
+ 
+ <class name="test_cases.Men_Products">
+ 
+ </class>
+ </classes>
+
+ </test>
+ 
+    <test name="Gear Products">
+ <classes>
+ 
+ <class name="test_cases.Gear_Products">
+ 
+ </class>
+ </classes>
+
+ </test>
+
+     <test name="Cart Products">
+ <classes>
+ 
+ <class name="test_cases.çart_products">
+ 
+ </class>
+ </classes>
+
+ </test>
+ 
+ </suite>
+ 
+ 
+ 
+ 
+ 
+ 
+ 
