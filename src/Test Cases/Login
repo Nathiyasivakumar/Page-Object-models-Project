@@ -33,9 +33,9 @@ public class login extends common_function{
 		
 		driver.manage().timeouts().implicitlyWait(10,TimeUnit.SECONDS);
 		
-	     logins_pom.login_Email.sendKeys(Properties.getProperty("Email", "snathiyasivakumar0601@gmail.com"));
+	     logins_pom.login_Email.sendKeys(Properties.getProperty("Email", "abcd@gmail.com"));
 
-		logins_pom.login_password.sendKeys(Properties.getProperty("Password","Ayyapa@0601"));
+		logins_pom.login_password.sendKeys(Properties.getProperty("Password","1234@abcd"));
 
 		logins_pom.Sign_in_btn_final.click();
 	}
